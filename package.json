@@ -1,0 +1,11 @@
+{
+  "author": "Danny Garcia",
+  "name": "DavidsTeaSampler",
+  "version": "0.1.0",
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-git-authors": "~1.1.0",
+    "grunt-css": "~0.5.4"
+  },
+  "devDependencies": {}
+}
