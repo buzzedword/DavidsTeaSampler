@@ -5,6 +5,12 @@ module.exports = function( grunt ) {
   //
   // https://github.com/cowboy/grunt/blob/master/docs/getting_started.md
   //
+
+  // Project additions
+  // -----------------
+
+    grunt.loadNpmTasks('grunt-devtools');
+
   grunt.initConfig({
 
     // Project configuration
@@ -19,7 +25,7 @@ module.exports = function( grunt ) {
     coffee: {
       compile: {
         files: {
-          'temp/scripts/*.js': 'app/scripts/**/*.coffee' 
+          'temp/scripts/*.js': 'app/scripts/**/*.coffee'
         },
         options: {
           basePath: 'app/scripts'

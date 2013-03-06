@@ -1,9 +1,0 @@
-components/**/docs
-components/**/examples
-components/**/test
-components/**/tools
-components/**/docs
-components/**/external
-components/**/build
-components/**/perf
-components/**/vendor
