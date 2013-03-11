@@ -1,2 +1,4 @@
-@import "../components/foundation/scss/foundation.scss";
-@import "../components/foundation/scss/normalize.scss";
+@import "settings";
+@import "../components/foundation/scss/foundation";
+// @import "../components/foundation/scss/normalize.scss";
+@import "mixins/shelves"

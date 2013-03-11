@@ -1,0 +1,45 @@
+@shelf {
+  margin: 100px 0;
+  ul {
+    margin: 23px 0;
+    padding: 0;
+    height: 19px;
+    border-bottom: 8px solid #999999;
+    background-color: #ccc;
+    float: left;
+    &:before {
+      border-right: 38px solid #cccccc;
+      border-top: 18px solid #FFFFFF;
+      content: "";
+      float: left;
+      margin: 0;
+      width: 0;
+    }
+    &:after {
+      border-left: 38px solid #cccccc;
+      border-top: 18px solid #FFFFFF;
+      content: "";
+      float: right;
+      margin: 0;
+      width: 0;
+    }
+  }
+  li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid;
+    float: left;
+    list-style: none outside none;
+    margin: -27px 10px 0;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+  }
+  a {
+    padding: 7px;
+    display: block;
+    text-decoration: none;
+    background: #555;
+    color: #fff;
+  }
+}

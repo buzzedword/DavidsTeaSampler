@@ -39,10 +39,11 @@ module.exports = function( grunt ) {
         // http://compass-style.org/help/tutorials/configuration-reference/#configuration-properties
         options: {
           css_dir: 'temp/styles',
-          sass_dir: 'app/styles',
+          sass_dir: 'app/sass',
           images_dir: 'app/images',
           javascripts_dir: 'temp/scripts',
-          force: true
+          force: true,
+          require: 'zurb-foundation'
         }
       }
     },
